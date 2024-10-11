@@ -1,4 +1,4 @@
-import MainLayout from "@/app/MainLayout";
+import MainLayout from "@/app/mainLayout";
 import {Button} from "@/components/ui/button";
 
 const Customers = () => {
