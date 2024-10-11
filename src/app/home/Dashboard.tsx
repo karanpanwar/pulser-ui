@@ -1,21 +1,22 @@
-import {Button} from "@/components/ui/button";
-import MainLayout from "@/app/MainLayout";
+import MainLayout from "@/app/mainLayout";
+import Card from "@/components/Card";
+import cardData from "@/data/cardData.json";
 
 const Dashboard = () => {
   return (
     <MainLayout>
-      <div className="flex items-center">
-        <h1 className="text-lg font-semibold md:text-2xl">Home</h1>
-      </div>
-      <div
-        className="flex flex-1 items-center justify-center rounded-lg border border-dashed shadow-sm">
-        <div className="flex flex-col items-center gap-1 text-center">
-          <h3 className="text-2xl font-bold tracking-tight">Title</h3>
-          <p className="text-sm text-muted-foreground">
-            Description
-          </p>
-          <Button className="mt-4">Button</Button>
-        </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {cardData.map((card, index) => (
+          <Card
+            key={index}
+            status={card.status}
+            title={card.title}
+            type={card.type}
+            imageUrl={card.imageUrl}
+            date={card.date}
+            contentType={card.contentType}
+          />
+        ))}
       </div>
     </MainLayout>
   );

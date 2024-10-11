@@ -1,0 +1,82 @@
+[
+  {
+    "status": "Draft",
+    "title": "Instagram stories",
+    "type": "Text",
+    "imageUrl": "https://picsum.photos/200/150",
+    "date": "May 4, 2024",
+    "contentType": "Analysis"
+  },
+  {
+    "status": "Scheduled",
+    "title": "Youtube Video SEO Tips",
+    "type": "Video",
+    "imageUrl": "https://picsum.photos/200/150",
+    "date": "May 4, 2024",
+    "contentType": "Guide"
+  },
+  {
+    "status": "Analysis",
+    "title": "Social media trend 2024",
+    "type": "Event",
+    "imageUrl": "https://picsum.photos/200",
+    "date": "May 4, 2024",
+    "contentType": "Insights"
+  },
+  {
+    "status": "Posted",
+    "title": "Instagram stories",
+    "type": "Image",
+    "imageUrl": "https://picsum.photos/200",
+    "date": "May 4, 2024",
+    "contentType": "Analysis"
+  },
+  {
+    "status": "Draft",
+    "title": "Facebook Ads Strategy",
+    "type": "Text",
+    "imageUrl": "https://picsum.photos/200/150",
+    "date": "June 10, 2024",
+    "contentType": "Strategy"
+  },
+  {
+    "status": "Scheduled",
+    "title": "LinkedIn Networking Tips",
+    "type": "Video",
+    "imageUrl": "https://picsum.photos/200/150",
+    "date": "June 15, 2024",
+    "contentType": "Guide"
+  },
+  {
+    "status": "Analysis",
+    "title": "Twitter Engagement Trends",
+    "type": "Event",
+    "imageUrl": "https://picsum.photos/200",
+    "date": "June 20, 2024",
+    "contentType": "Insights"
+  },
+  {
+    "status": "Posted",
+    "title": "Pinterest Marketing",
+    "type": "Image",
+    "imageUrl": "https://picsum.photos/200",
+    "date": "June 25, 2024",
+    "contentType": "Analysis"
+  },
+  {
+    "status": "Draft",
+    "title": "Snapchat Filters Guide",
+    "type": "Text",
+    "imageUrl": "https://picsum.photos/200/150",
+    "date": "July 1, 2024",
+    "contentType": "Guide"
+  },
+  {
+    "status": "Scheduled",
+    "title": "TikTok Viral Content",
+    "type": "Video",
+    "imageUrl": "https://picsum.photos/200/150",
+    "date": "July 5, 2024",
+    "contentType": "Strategy"
+  }
+]
