@@ -1,4 +1,5 @@
 import { Sparkles } from "lucide-react";
+import Image from "next/image";
 
 interface CardProps {
   status: string;
@@ -23,7 +24,7 @@ const Card = ({ status, title, type, imageUrl, date, contentType }: CardProps) =
         <span className="inline-block bg-primary-foreground text-primary text-xs px-2 py-1 rounded-full mt-2">
           {type}
         </span>
-        <img
+        <Image
           src={imageUrl}
           alt={title}
           className="w-full h-32 object-cover mt-4 rounded-lg"
