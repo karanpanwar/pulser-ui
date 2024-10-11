@@ -19,7 +19,7 @@ const Card = ({ status, title, type, imageUrl, date, contentType }: CardProps) =
           <Sparkles className="ml-2 bg-pink-400 rounded-sm text-white p-1" />
         </div>
         <div className="flex justify-between items-center">
-          <h2 className="text-xl font-semibold">{title}</h2>
+          <h2 className="text-base font-semibold">{title}</h2>
         </div>
         <span className="inline-block bg-primary-foreground text-primary text-xs px-2 py-1 rounded-full mt-2">
           {type}
