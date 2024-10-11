@@ -6,18 +6,23 @@ import Card from "@/components/Card";
 import Table from "@/components/Table";
 import cardData from "@/data/cardData.json";
 import { Button } from "@/components/ui/button";
+import {Table as TableIcon} from  "lucide-react";
+import {LayoutGrid as LayoutGridIcon} from "lucide-react";
+
 
 const Dashboard = () => {
   const [view, setView] = useState<"card" | "table">("card");
 
   return (
     <MainLayout>
-      <div className="flex justify-end gap-2 mb-4">
+      <div className="flex gap-2 mb-4">
         <Button variant={view === "card" ? "default" : "outline"} onClick={() => setView("card")}>
-          View as Card
+          <LayoutGridIcon className="h-5 w-5 mr-2"/>
+          Card
         </Button>
         <Button variant={view === "table" ? "default" : "outline"} onClick={() => setView("table")}>
-          View as Table
+          <TableIcon className="h-5 w-5 mr-2" />
+          Table
         </Button>
       </div>
       {view === "card" ? (
