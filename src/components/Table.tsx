@@ -32,7 +32,12 @@ const Table = ({ data }: TableProps) => {
             <td className="px-4 py-2 border-b">{item.title}</td>
             <td className="px-4 py-2 border-b">{item.type}</td>
             <td className="px-4 py-2 border-b">
-              <Image src={item.imageUrl} alt={item.title} className="w-16 h-16 object-cover rounded-lg" />
+              <Image
+                src={item.imageUrl}
+                alt={item.title}
+                className="w-16 h-16 object-cover rounded-lg" width={'100'}
+                height={'100'}
+              />
             </td>
             <td className="px-4 py-2 border-b">{item.date}</td>
             <td className="px-4 py-2 border-b">{item.contentType}</td>

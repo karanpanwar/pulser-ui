@@ -27,6 +27,8 @@ const Card = ({ status, title, type, imageUrl, date, contentType }: CardProps) =
         <Image
           src={imageUrl}
           alt={title}
+          width={'150'}
+          height={'150'}
           className="w-full h-32 object-cover mt-4 rounded-lg"
         />
       </div>
